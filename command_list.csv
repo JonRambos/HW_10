@@ -1,0 +1,33 @@
+    1  git config --global user.name Vitaliy Kovaliv
+    2  git config --global user.email angelochek888899@gmail.com
+    3  cd /c/Users/Admin/Desktop/QA35
+    4  git clone https://github.com/JonRambos/HW_10.git
+    5  cd HW_10
+    6  touch  text_ignore.txt
+    7  ls -l
+    8  git status
+    9  cat .gitignore
+   10  nano .gitignore
+   11  git status
+   12  git add .
+   13  git commit -m "Відредагували файл .gitignore, додавши туди назву файлу text_ignore.txt"
+   14  touch main_test.txt
+   15  ls -l
+   16  git add .
+   17  git commit -m "Файл  main_test.txt було створено"
+   18  git branch develop
+   19  git checkout develop
+   20  git branch
+   21  touch develop_test.txt
+   22  git add .
+   23  git commit -m "Файл develop_test.txt
+ було створено"
+   24   nano develop_test.txt file
+   25  git status
+   26  git add .
+   27  git commit -m "Файл Job is done.txt
+ було дадано"
+   28  git checkout main
+   29  git merge develop
+   30  git log
+   31  history > command_list.csv
